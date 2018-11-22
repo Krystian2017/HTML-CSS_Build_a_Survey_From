@@ -9,7 +9,7 @@
   <body>
     <h1 id="id-title">Survey Form</h1>
     <div class="container">
-      <p id="survey-form">Let us know how we can improve freeCodeCamp</p>
+      <p id="description">Let us know how we can improve freeCodeCamp</p>
       <form id="survey-form">
         <div class="rowTab">
           <div class="label">
@@ -52,9 +52,9 @@
         </div>
         <div class="rowTab">
           <div class="label">
-            <label for="userRating" id="recommend-question">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+            <label for="userRating" id="recommend-question">* How likely is that you would recommend<br> freeCodeCamp to a friend?</label>
           </div>
-          <div id="rightTab">
+          <div class="rightTab">
             <ul id="userRating">
               <li>
                 <input id="definitely" type="radio" name="radio-buttons" value="1">
@@ -88,7 +88,7 @@
         </div>
         <div class="rowTab">
           <div class="label">
-            <label for="preferences">Things that should be improved in the future (Check all that apply):</label>
+            <label for="preferences">Things that should be improved in the future<br>(Check all that apply):</label>
           </div>
           <div class="rightTab">
             <ul id="preferences">
@@ -144,9 +144,10 @@
             <label>Any Comments or Suggestions?</label>
           </div>
           <div class="rightTab">
-            <textarea id="comment" name="comment" rows="5" cols="30" placeholder="Enter your coment here..."></textarea>
+            <textarea id="comment" name="comment" placeholder="Enter your coment here..."></textarea>
           </div>
         </div>
+        <button id="submit" type="submit">Submit</button>
       </form>
     </div>
   </body>
